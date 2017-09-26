@@ -47,7 +47,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  a_array
+  a_array = []
   array.each_with_index do |element, index|
     placeholder_value = element.split("")
     if placeholder_value[0] == "a"
