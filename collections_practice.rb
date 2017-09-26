@@ -56,3 +56,10 @@ def find_a(array)
   end
   a_array
 end
+
+def sum_array(array)
+  sum_int = 0
+  array.each do |element|
+    sum_int += element.to_i
+  end
+end
