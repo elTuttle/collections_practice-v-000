@@ -62,4 +62,5 @@ def sum_array(array)
   array.each do |element|
     sum_int += element.to_i
   end
+  sum_int
 end
