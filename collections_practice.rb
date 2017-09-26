@@ -41,7 +41,7 @@ def kesha_maker(array)
   array.each_with_index do |element, index|
     placeholder_value = element.split("")
     placeholder_value[2] = "$"
-    placeholder_value.join("")
-    array[index] = placeholder_value
+    placeholder_string = placeholder_value.join("")
+    array[index] = placeholder_string
   end
 end
