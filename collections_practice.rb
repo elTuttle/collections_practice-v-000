@@ -54,4 +54,5 @@ def find_a(array)
       a_array << element
     end
   end
+  a_array
 end
