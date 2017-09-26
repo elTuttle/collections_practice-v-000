@@ -36,3 +36,12 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  array.each_with_index do |element, index|
+    placeholder_value = element.split
+    placeholder_value[2] = "$"
+    placeholder_value.join
+    array[index] = placeholder_value
+  end
+end
