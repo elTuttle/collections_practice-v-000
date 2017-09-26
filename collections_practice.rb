@@ -45,3 +45,13 @@ def kesha_maker(array)
     array[index] = placeholder_string
   end
 end
+
+def find_a(array)
+  a_array
+  array.each_with_index do |element, index|
+    placeholder_value = element.split("")
+    if placeholder_value[0] == "a"
+      a_array << element
+    end
+  end
+end
